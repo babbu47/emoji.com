@@ -16,10 +16,7 @@ const emojidictionary = {
 };
 var emojiweknow = Object.keys(emojidictionary);
 
-//var shoppinglist=["milk","egg","mango","papita","orange"]
 export default function App() {
-  //const [value, setvalue] = useState(0);
-  // const [inputs, setuserinput] = useState("");
   const [meaning, setoutput] = useState("");
   function emojiinputhandler(event) {
     var userInput = event.target.value;
