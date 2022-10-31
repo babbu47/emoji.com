@@ -7,7 +7,12 @@ const emojidictionary = {
   "😞 ": "sad",
   "🍔": "food and drink",
   "❤️": "love",
-  "🚀": "travel"
+  "🚀": "travel",
+  "😠": "Angry",
+  "🤳 ": "Selfie",
+  "👻": "Ghost",
+  "🏏": "Cricket",
+  "⌚": "Watch"
 };
 var emojiweknow = Object.keys(emojidictionary);
 
